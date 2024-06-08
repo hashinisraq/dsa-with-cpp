@@ -1,0 +1,12 @@
+Complexity depend on the steps of a program. Every complexity consider two cases: 
+        1. Worst case for the program
+        2. Ignore the constant value to calculate complexity
+
+***Mainly, complexity comes from the loop.
+
+Basically, it is considered that, a machine can complete 10^7 steps in 1 second.
+
+Good To Bad Time Complexity: O(1) <- O(logN) <- O(sqrt(N)) <- O(N) <- O(NlogN) <- O(N*N) <- O(2^N)
+
+
+O(2^N): N pissoble value is 20 for 1 second

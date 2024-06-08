@@ -1,0 +1,15 @@
+Space Complexity depends on the size of a program.
+Space Complexity = Input Space + Auxiliary Space
+
+Example of Space:
+                int s = a + b;
+                s   = input space O(1)
+                a+b = auxiliary space  O(1)
+
+Example:
+        int a[N];  // O(N)
+        int b[N*N];  // O(N*N)
+        Space Complexity = O(N*N)
+
+
+*** Online Judge can handle O(N) where N is 10^6
